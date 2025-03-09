@@ -10,7 +10,7 @@ import { Label } from "@/components/ui/label";
 const Cars = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("all");
-  const [maxPrice, setMaxPrice] = useState(150);
+  const [maxPrice, setMaxPrice] = useState(6000);
 
   // Extract unique categories
   const categories = ["all", ...new Set(cars.map(car => car.category))];
@@ -67,13 +67,13 @@ const Cars = () => {
             
             <div>
               <div className="flex justify-between">
-                <Label htmlFor="price">Max Price: ${maxPrice}</Label>
+                <Label htmlFor="price">Max Price: ₹{maxPrice}</Label>
               </div>
               <Slider 
                 id="price"
-                min={30} 
-                max={150} 
-                step={5} 
+                min={1000} 
+                max={6000} 
+                step={500} 
                 value={[maxPrice]} 
                 onValueChange={(value) => setMaxPrice(value[0])}
                 className="mt-3"

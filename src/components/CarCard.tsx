@@ -31,7 +31,7 @@ const CarCard = ({ car }: { car: CarProps }) => {
             <CardDescription>{car.category}</CardDescription>
           </div>
           <div className="flex items-center text-brens-red font-semibold">
-            <DollarSign className="h-4 w-4 mr-1" />
+            <span>₹</span>
             <span>{car.price}</span>
             <span className="text-sm text-muted-foreground font-normal">/day</span>
           </div>
@@ -73,7 +73,7 @@ const CarCard = ({ car }: { car: CarProps }) => {
       </CardContent>
       <CardFooter className="p-4 pt-0">
         <a 
-          href={`https://wa.me/1234567890?text=I'm%20interested%20in%20booking%20the%20${encodeURIComponent(car.name)}`}
+          href={`https://wa.me/919876543210?text=I'm%20interested%20in%20booking%20the%20${encodeURIComponent(car.name)}`}
           target="_blank"
           rel="noopener noreferrer"
           className="w-full"
