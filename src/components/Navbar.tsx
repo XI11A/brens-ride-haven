@@ -34,7 +34,7 @@ const Navbar = () => {
             <Link to="/contact" className="text-gray-700 hover:text-brens-blue font-medium transition-colors">
               Contact
             </Link>
-            <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20booking%20a%20car" 
+            <a href="https://wa.me/919876543210?text=I'm%20interested%20in%20booking%20a%20car" 
                target="_blank"
                rel="noopener noreferrer" 
                className="flex items-center">
@@ -69,7 +69,7 @@ const Navbar = () => {
               <Link to="/contact" className="text-gray-700 hover:text-brens-blue font-medium" onClick={toggleMenu}>
                 Contact
               </Link>
-              <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20booking%20a%20car" 
+              <a href="https://wa.me/919876543210?text=I'm%20interested%20in%20booking%20a%20car" 
                  target="_blank" 
                  rel="noopener noreferrer" 
                  className="w-full"

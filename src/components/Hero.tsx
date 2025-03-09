@@ -13,24 +13,24 @@ const Hero = () => {
               Drive Your Way with Premium Self-Rental Cars
             </h1>
             <p className="text-lg text-gray-200">
-              Experience the freedom of the road with Brens Cars. Quality vehicles, competitive rates, and exceptional service.
+              Experience the freedom of the road with Brens Cars. Quality vehicles, competitive rates, and exceptional service across Chennai and Tamil Nadu.
             </p>
             <div className="space-y-3">
               <div className="flex items-center">
                 <Check className="h-5 w-5 text-brens-red mr-2" />
-                <span>No hidden fees</span>
+                <span>No hidden fees, transparent pricing</span>
               </div>
               <div className="flex items-center">
                 <Check className="h-5 w-5 text-brens-red mr-2" />
-                <span>24/7 roadside assistance</span>
+                <span>24/7 roadside assistance across Tamil Nadu</span>
               </div>
               <div className="flex items-center">
                 <Check className="h-5 w-5 text-brens-red mr-2" />
-                <span>Clean, sanitized vehicles</span>
+                <span>Sanitized vehicles with regular maintenance</span>
               </div>
             </div>
             <div className="flex flex-wrap gap-4 pt-2">
-              <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20booking%20a%20car" 
+              <a href="https://wa.me/919876543210?text=I'm%20interested%20in%20booking%20a%20car" 
                  target="_blank" 
                  rel="noopener noreferrer">
                 <Button className="bg-brens-red hover:bg-red-700 text-white">

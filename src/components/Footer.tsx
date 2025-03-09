@@ -14,7 +14,7 @@ const Footer = () => {
               <span className="text-xl font-bold">Brens Cars</span>
             </div>
             <p className="text-sm text-gray-300 mb-4">
-              Premium self-drive car rental service. Quality vehicles for your comfort and convenience.
+              Premium self-drive car rental service in Chennai and across Tamil Nadu. Quality vehicles for your comfort and convenience.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-white hover:text-brens-red transition-colors">
@@ -70,7 +70,7 @@ const Footer = () => {
             <ul className="space-y-2 text-gray-300">
               <li className="flex items-center space-x-2">
                 <Phone size={16} />
-                <span>+1 (234) 567-8900</span>
+                <span>+91 9876 543210</span>
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={16} />
@@ -78,7 +78,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin size={16} className="mt-1 flex-shrink-0" />
-                <span>123 Rental Street, Car City, CC 12345</span>
+                <span>123 Anna Salai, T. Nagar, Chennai, Tamil Nadu 600017</span>
               </li>
             </ul>
           </div>
